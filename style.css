@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1100px;
+    object-fit: cover;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 180px;
+    padding: 10px;
+    width: 180px;
+    object-fit: cover;
+    border: none;
+}
+
+.dtl{
+    text-align: center;
+    width: 90vmin;
+}
+
+.vd{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vd >:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.vd>:nth-child(3){
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.allurl{
+    width: 80vmin;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    transition: transform 1s ease, background-color 0.3s ease;
+}
+
+.url{
+    font-size: 20px;
+    width: 80vmin;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: transparent;
+    color: black;
+    border-radius: 50px;
+    margin: 15px auto;
+    cursor: pointer;
+    /* border: none; */
+}
+
+.allurl :hover{
+    background-color: #FFFDEC;
+    color: black;
+    font-weight: bolder;
+    transform: scale(1.1); 
+}
+
+.link {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.link.hover-effect {
+    transform: scale(1.1); /* Slightly enlarges the element */
+    background-color: #f0f0f0; /* Changes the background color */
+}
+
+
+.url img{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    padding: 6px 0px 6px 6px;
+    border: none;
+    /* padding: 2px 0px 2px 5px; */
+}
+
+.allproject{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.project{
+    font-family: 'Allura', cursive;
+    font-size: 3rem;
+    font-weight: 100px;
+    padding: 30px;
+    color: black;
+}
+
+.project:hover{
+    text-decoration: underline;
+}
+
+.ultrapro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+}
+
+.pro{
+    padding: 5px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.ultrapro :hover{
+    background-color: #FFFDEC;
+    color: black;
+    font-weight: bolder;
+}
