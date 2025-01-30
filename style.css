@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,9 @@ video{
     height: 1100px;
     object-fit: cover;
 }
-
+.vd span {
+    color: white;
+}
 img{
     border: 1px solid black;
     border-radius: 50%;
@@ -63,7 +66,7 @@ img{
     align-items: center;
     border: 1px solid white;
     background-color: transparent;
-    color: black;
+    color: white;
     border-radius: 50px;
     margin: 15px auto;
     cursor: pointer;
@@ -101,7 +104,7 @@ img{
     font-size: 20px;
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .project{
@@ -109,12 +112,9 @@ img{
     font-size: 3rem;
     font-weight: 100px;
     padding: 30px;
-    color: black;
+    color: white;
 }
 
-.project:hover{
-    text-decoration: underline;
-}
 
 .ultrapro{
     display: grid;
