@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ video{
     object-fit: cover;
 }
 .vd span {
-    color: white;
+    color: black;
 }
 img{
     border: 1px solid black;
@@ -65,19 +64,20 @@ img{
     display: flex;
     align-items: center;
     border: 1px solid white;
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 50px;
     margin: 15px auto;
     cursor: pointer;
-    /* border: none; */
 }
 
 .allurl :hover{
-    background-color: #FFFDEC;
-    color: black;
-    font-weight: bolder;
-    transform: scale(1.1); 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1.1);
+}
+.nameurl{
+    display: flex;
+    align-items: center;
 }
 
 .link {
@@ -104,7 +104,7 @@ img{
     font-size: 20px;
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .project{
@@ -112,7 +112,7 @@ img{
     font-size: 3rem;
     font-weight: 100px;
     padding: 30px;
-    color: white;
+    color: black;
 }
 
 
@@ -124,14 +124,9 @@ img{
 }
 
 .pro{
-    padding: 5px;
+    padding:10px;
     border: 1px solid white;
     margin: 10px;
+    background-color: white;
     border-radius: 12px;
-}
-
-.ultrapro :hover{
-    background-color: #FFFDEC;
-    color: black;
-    font-weight: bolder;
 }
